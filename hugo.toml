@@ -1,0 +1,23 @@
+baseURL = 'https://aatianya.github.io/test_blog/'
+languageCode = 'zh-cn'
+defaultContentLanguage = 'zh'
+title = 'My Blog'
+enableRobotsTXT = true
+enableEmoji = true
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  author = 'aatianya'
+  description = 'Hugo blog deployed with GitHub Pages'
+
+[markup]
+  [markup.highlight]
+    style = 'github'
+    lineNos = false
+
+[outputs]
+  home = ['HTML', 'RSS']
+  section = ['HTML', 'RSS']
+  taxonomy = ['HTML', 'RSS']
